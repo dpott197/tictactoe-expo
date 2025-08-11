@@ -19,7 +19,7 @@ export default function TicTacToe() {
   const [currentPlayer, setCurrentPlayer] = useState<'X' | 'O'>('X');
   const [gameWon, setGameWon] = useState<boolean>(false);
   const [winner, setWinner] = useState<Player>(null);
-  const [gameMode, setGameMode] = useState<GameMode>('pvp');
+  const [gameMode, setGameMode] = useState<GameMode>('pva');
   const [difficulty, setDifficulty] = useState<Difficulty>('medium');
   const [isAiThinking, setIsAiThinking] = useState<boolean>(false);
 
